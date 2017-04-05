@@ -1,0 +1,83 @@
+body{
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'Lato_Black';
+    src: url('../fonts/Lato-Black.ttf');
+}
+@font-face {
+    font-family: 'Lato_Regular';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+.container{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.center{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+#inc_header{
+    height: 120px;
+    width: 100%;
+    background-color: #e8ebf1;
+    margin-top: 0px;
+}
+#header_center{
+    position: relative;
+    height: 100%;
+}
+#header_logo{
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+#header_logo >span{
+    font-size: 50pt;
+}
+#inc_header_title1{
+    font-family: Lato_Black;
+    color: #000000;
+}
+#inc_header_title2{
+    font-family: Lato_Regular;
+    color: #2aacc8;
+}
+#menu{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    height: 40px;
+}
+#menu >ul>li>i{
+    width: 7px;
+    height: 5px;
+}
+#menu >ul>li{
+    display: inline-block;
+    list-style-type: none;
+    width: 100px;
+    text-align: center;
+    padding-right: 5px;
+    background-color: #2aacc8;
+    height: 35px;
+    line-height: 20px;
+}
+#menu >ul>li>a{
+    font-family: Arial;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
