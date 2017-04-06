@@ -1,6 +1,7 @@
 body {
     font-family: Arial;
     height: 100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -185,11 +186,29 @@ body {
     width: 100%;
     height: 503px;
     background-color: #81e4ed;
-    position: relative;
 }
-
-#banner > div > img {
+#slide{
     padding-top: 20px;
+
+    position: relative;
+    width: 100%;
+    height: 440px;
+}
+#pre_banner{
+    width: 500px;
+    height: 420px;
+    float: left;
+    position: absolute;
+}
+#next_banner{
+    width: 500px;
+    height: 440px;
+    right: 0px;
+    position: absolute;
+}
+#img_slide {
+    width: 1000px;
+    height: 440px;
 }
 
 #position_banner {
@@ -207,7 +226,9 @@ body {
     border-radius: 50%;
     background-color: #71a3a7;
 }
-
+#position_main{
+    background-color: white ;
+}
 #home1 {
     width: 100%;
     height: 300px;
@@ -285,4 +306,118 @@ body {
 
 #full_screen {
     padding-top: 12px;
+}
+
+#home2_item_title{
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    border-bottom: 1px solid #dfe1e5;
+}
+#home2_item_title >i{
+    color: #2aacc8;
+}
+#home2_item_title >p{
+    display: inline-block;
+    font-size: 15pt;
+    font-weight: bold;
+    padding-left: 30px;
+}
+#button_title{
+    float: right;
+    padding-top: 25px;
+    display: inline-block;
+}
+#button_title >button{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #81e4ed;
+    display: inline-block;
+    border: 0px;
+}
+#button_title button:hover{
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+}
+#button_title >div>i{
+    padding-top: 5px;
+
+    color: #434343;
+}
+.fa-chevron-left{
+    padding-right: 3px;
+}
+.fa-chevron-right{
+    padding-left: 3px;
+}
+
+#list_item{
+    height: 220px;
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #dfe1e5;
+}
+.item{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 220px;
+    height: 160px;
+    display: inline-block;
+}
+.img_item{
+    width: 220px;
+    height: 160px;
+}
+.item >div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.hover_item{
+    height: 0px;
+    width: 100%;
+    background-color: #2aacc8;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: inline-block;
+    z-index: 1;
+    transition-property: height;
+    transition-duration: 2s;
+    line-height: 80px;
+    overflow: hidden;
+}
+.hover_item i{
+    color: white;
+    padding-right: 50px;
+}
+.hover_item img{
+    padding-left: 50px;
+}
+#item1{
+    left: 0px;
+}
+#item2{
+    left: 260px;
+}
+#item3{
+    left: 520px;
+}
+#item4{
+    left: 780px;
+}
+#item5{
+    left: 1040px;
+}
+#item6{
+    left: 1300px;
+}
+.item:hover .hover_item{
+    height: 80px;
 }
