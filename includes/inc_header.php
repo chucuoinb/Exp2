@@ -13,12 +13,12 @@
         </div>
         <div id="menu">
             <ul>
-                <li><a>HOME</a></li>
-                <li><a>ABOUT US</a></li>
-                <li><a>SERVICES</a><i class="fa fa-angle-down" aria-hidden="true"></i></li>
-                <li><a>PORTFOLIO</a><i class="fa fa-angle-down" aria-hidden="true"></i></li>
-                <li><a>BLOG</a></li>
-                <li><a>CONTACT US</a></li>
+<!--                <li><a>HOME</a></li>-->
+<!--                <li><a>ABOUT US</a></li>-->
+<!--                <li><a>SERVICES</a><i class="fa fa-angle-down" aria-hidden="true"></i></li>-->
+<!--                <li><a>PORTFOLIO</a><i class="fa fa-angle-down" aria-hidden="true"></i></li>-->
+<!--                <li><a>BLOG</a></li>-->
+<!--                <li><a>CONTACT US</a></li>-->
             </ul>
         </div>
     </div>
