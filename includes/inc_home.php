@@ -182,7 +182,7 @@
                 </div>
             </div>
         </div>
-        <div id="home2_midle">
+        <div id="home2_middle">
             <div id="testimonial">
                 <div id="testimonial_title">
                     <img src="../images/chat.png">
@@ -207,12 +207,40 @@
                 </div>
                 <div id="logo">
                     <div>
-                        <div class="logo"></div>
-                        <div class="logo"></div>
-                        <div class="logo"></div>
+                        <div class="logo logo1">
+                            <a href="##"><img class="img" src="../images/out_client_logo1.png"></a>
+                        </div>
+                        <div class="logo logo2">
+                            <a href="##"><img class="img" src="../images/out_client_logo2.png"></a>
+                        </div>
+                        <div class="logo logo3">
+                            <a href="##"><img class="img" src="../images/out_client_logo3.PNG"></a>
+                        </div>
                     </div>
-                    <div></div>
+
+                    <div>
+                        <div class="logo logo1">
+                            <a href="##"><img class="img" class="group1" src="../images/out_client_logo4.png"></a>
+                        </div>
+                        <div class="logo logo2">
+                            <a href="##"><img class="img" src="../images/out_client_logo5.PNG"></a>
+                        </div>
+                        <div class="logo logo3">
+                            <a href="##"><img class="img" src="../images/out_client_logo6.PNG"></a>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div id="home2_footer">
+            <p>This is a clean and modern, four column website PSD template. You can code it into a<br>
+                Wordpress website, HTML5 responsive website for your personal or client works. So<br>
+                ahead and download this wonderful PSD template!</p>
+            <div>
+                <a>
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <p>DOWNLOAD PSD</p>
+                </a>
             </div>
         </div>
     </div>

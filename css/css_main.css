@@ -324,7 +324,7 @@ body {
     display: inline-block;
     font-size: 15px;
     font-weight: bold;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 #button_title{
     float: right;
@@ -445,7 +445,7 @@ body {
     left: 1040px;
 }
 
-#home2_midle{
+#home2_middle{
     width: 100%;
     height: 300px;
     display: inline-block;
@@ -476,7 +476,8 @@ body {
 #testimonial_text{
     color: #363636;
     font-size: 14px;
-    padding-top: 20px;
+    padding-top: 22px;
+    line-height: 25px;
 }
 #signature{
     color: #363636;
@@ -485,7 +486,6 @@ body {
     font-weight: bold;
 }
 #our_client{
-    background-color: #71a3a7;
     width: 50%;
     height: 100%;
     float: right;
@@ -508,4 +508,102 @@ body {
     left: 60px;
     font-weight: bold;
     font-size: 15px;
+}
+#logo{
+    padding-left: 20px;
+    width: 480px;
+    height: 200px;
+    padding-top: 40px;
+}
+#logo >div{
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 160px;
+    border: 1px solid #e8ebf1;
+    box-shadow: inset 0px 0px 100px -90px rgba(0,0,0,1);
+}
+/*.logo1:hover img{*/
+    /*cursor: pointer;*/
+    /*margin: 5px;*/
+/*}*/
+.logo >a>img{
+    padding-top: 20px;
+
+}
+#logo1{
+    width: 103px;
+    height: 84px;
+    left: 0px;
+
+}
+.logo2{
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    top: 0px;
+}
+.logo3{
+    right: 1px;
+}
+.logo3 >a>img{
+    padding-top: 30px;
+}
+.group1{
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease;
+}
+
+#home2_footer{
+    width: 100%;
+    height: 140px;
+    padding-top: 40px;
+    background-color: #e8fcfe;
+    position: relative;
+}
+#home2_footer >p{
+    padding-left: 20px;
+    font-size: 16px;
+    color: #a5b2b3;
+}
+#home2_footer >div{
+    float: right;
+    position: absolute;
+    right: 40px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 240px;
+    background: repeating-linear-gradient(#2aacc8 0%, #7be0ea 100%, #2aacc8 10%);
+    height: 60px;
+    border: 0.5px solid #7b8394;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px #7b8394;
+
+}
+#home2_footer >a{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#home2_footer >div>a>i{
+    color: white;
+    left: 25px;
+    top: 25px;
+    position: absolute;
+    font-size: 18px;
+}
+#home2_footer >div>a>p{
+    position: absolute;
+    top: 4px;
+    right: 25px;
+    font-size: 18px;
+    font-weight: bold;
 }

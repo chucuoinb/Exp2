@@ -68,6 +68,15 @@ $(document).ready(function () {
 
         }
     });
+
+    $(".logo").hover(function () {
+        var index = $(".logo").index(this);
+        $(".img").eq(index).css("width","+=5").css("height","+=5").css("cursor","pointer");
+    },function () {
+        var index = $(".logo").index(this);
+        $(".img").eq(index).css("width","-=5").css("height","-=5").css("cursor","pointer");
+    })
+
 });
 
 function stopAutoChangeSlide() {
