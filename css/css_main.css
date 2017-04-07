@@ -4,8 +4,11 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    font-size: 13px;
 }
-
+@keyframes rotate360 {
+    100% { transform: rotate(360deg); }
+}
 @font-face {
     font-family: 'Lato_Black';
     src: url('../fonts/Lato-Black.ttf');
@@ -60,7 +63,7 @@ body {
 }
 
 #header_logo > span {
-    font-size: 50pt;
+    font-size: 50px;
 }
 
 #inc_header_title1 {
@@ -90,7 +93,7 @@ body {
 }
 
 #menu > ul > li > i {
-    font-size: 13pt;
+    font-size: 13px;
     margin-right: 5px;
 }
 
@@ -221,8 +224,8 @@ body {
 
 .position {
     display: inline-block;
-    width: 13pt;
-    height: 13pt;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
     background-color: #71a3a7;
 }
@@ -264,15 +267,15 @@ body {
 }
 
 .home1_content_header > div > i {
-    font-size: 15pt;
+    font-size: 15px;
     color: white;
 }
 
 .home1_content_header > p {
     position: absolute;
     color: #616265;
-    top: 45px;
-    font-size: 11pt;
+    top: 55px;
+    font-size: 15px !important;
     font-weight: bold;
     width: 198px;
     text-align: left;
@@ -281,7 +284,7 @@ body {
 }
 
 .home1_content >p {
-    font-size: 11pt;
+    font-size: 13px;
     color: #363636;
 }
 #home1_content1{
@@ -295,7 +298,7 @@ body {
 }
 
 .home1_content_footer > i {
-    font-size: 10pt;
+    font-size: 10px;
     color: #2b2b2c;
 }
 
@@ -319,7 +322,7 @@ body {
 }
 #home2_item_title >p{
     display: inline-block;
-    font-size: 15pt;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 30px;
 }
@@ -328,7 +331,7 @@ body {
     padding-top: 25px;
     display: inline-block;
 }
-#button_title >button{
+#button_title >div{
     width: 25px;
     height: 25px;
     text-align: center;
@@ -342,7 +345,7 @@ body {
     -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
 }
-#button_title >div>i{
+#button_title >div>a>i{
     padding-top: 5px;
 
     color: #434343;
@@ -389,35 +392,120 @@ body {
     display: inline-block;
     z-index: 1;
     transition-property: height;
-    transition-duration: 2s;
+    transition-duration: 1s;
     line-height: 80px;
     overflow: hidden;
 }
-.hover_item i{
-    color: white;
-    padding-right: 50px;
-}
-.hover_item img{
-    padding-left: 50px;
-}
-#item1{
-    left: 0px;
-}
-#item2{
-    left: 260px;
-}
-#item3{
-    left: 520px;
-}
-#item4{
-    left: 780px;
-}
-#item5{
-    left: 1040px;
-}
-#item6{
-    left: 1300px;
-}
 .item:hover .hover_item{
     height: 80px;
+}
+.hover_item >div{
+    width: 25px;
+    height: 25px;
+    right: 50px;
+    position: absolute;
+    top: 30px;
+    line-height: 25px;
+}
+.hover_item >div>i{
+    color: white;
+    width: 24px;
+    height: 26px;
+
+}
+.hover_item>img{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.hover_item >img:hover{
+    animation-name: rotate360;
+    animation-duration: 2s;
+}
+.hover_item >div:hover{
+    animation-name: rotate360;
+    animation-duration: 2s;
+}
+#item5{
+    left: -260px;
+}
+#item0{
+    left: 0px;
+}
+#item1{
+    left: 260px;
+}
+#item2{
+    left: 520px;
+}
+#item3{
+    left: 780px;
+}
+#item4{
+    left: 1040px;
+}
+
+#home2_midle{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+#testimonial{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#testimonial_title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+#testimonial_title >img{
+    position: absolute;
+    top: 20px;
+}
+#testimonial_title >p{
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#testimonial_text{
+    color: #363636;
+    font-size: 14px;
+    padding-top: 20px;
+}
+#signature{
+    color: #363636;
+    font-size: 14px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+#our_client{
+    background-color: #71a3a7;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#our_client_title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+#our_client_title >img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#our_client_title >p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-weight: bold;
+    font-size: 15px;
 }
