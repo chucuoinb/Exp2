@@ -206,7 +206,7 @@
                     <p>OUR CLIENT</p>
                 </div>
                 <div id="logo">
-                    <div>
+                    <div id="logo_1">
                         <div class="logo logo1">
                             <a href="##"><img class="img" src="../images/out_client_logo1.png"></a>
                         </div>
@@ -218,7 +218,7 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div id="logo_2">
                         <div class="logo logo1">
                             <a href="##"><img class="img" class="group1" src="../images/out_client_logo4.png"></a>
                         </div>
@@ -238,7 +238,7 @@
                 ahead and download this wonderful PSD template!</p>
             <div>
                 <a>
-                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <img src="../images/download.png">
                     <p>DOWNLOAD PSD</p>
                 </a>
             </div>

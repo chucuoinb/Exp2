@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-
-</head>
-<body>
 <div id="inc_header">
     <div class="container" id="header_center">
         <div id="header_logo" herf="#">
-            <span id="inc_header_title1">Bis</span><span id="inc_header_title2">Lite</span>
+            <span class="logo_bis">Bis</span><span class="logo_lite">Lite</span>
         </div>
         <div id="menu">
             <ul>
-                <li><a herf="#">HOME</a></li>
-                <li><a herf="#">ABOUT US</a></li>
-                <li class="sub_menu">
+                <li class="menu_main active"><a herf="#">HOME</a></li>
+                <li class="menu_main"><a herf="#">ABOUT US</a></li>
+                <li class="sub_menu menu_main">
                     <a herf="#">SERVICES</a>
                     <div>
 
@@ -29,7 +21,7 @@
                         <li class="bottom_submenu"><a href="#">Social Media Management</a></li>
                     </ul>
                 </li>
-                <li class="sub_menu">
+                <li class="sub_menu menu_main">
                     <a herf="#">PORTFOLIO</a>
                     <div>
 
@@ -43,11 +35,9 @@
                         <li class="bottom_submenu"><a href="#">Social Media Management</a></li>
                     </ul>
                 </li>
-                <li><a herf="#">BLOG</a></li>
-                <li><a herf="#">CONTACT US</a></li>
+                <li class="menu_main"><a herf="#">BLOG</a></li>
+                <li class="menu_main"><a herf="#">CONTACT US</a></li>
             </ul>
         </div>
     </div>
 </div>
-</body>
-</html>
