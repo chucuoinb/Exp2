@@ -6,13 +6,13 @@
                     About Us
                 </p>
                 <p class="footer_text">
-                    Lorem ipsum dolor sit amet,<br>
-                    consectetur adipiscing elit. Morbi<br>
-                    euismod placerat dui et tincidunt. Sed<br>
-                    sollicitudin posuere auctor. Phasellus<br>
-                    at ultricies nis Integer at leo eros. Ut<br>
-                    nec lorem id orci convallis porta<br>
-                    Donec pharetra neque eu velit dictum<br>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Morbi
+                    euismod placerat dui et tincidunt. Sed
+                    sollicitudin posuere auctor. Phasellus
+                    at ultricies nis Integer at leo eros. Ut
+                    nec lorem id orci convallis porta
+                    Donec pharetra neque eu velit dictum
                     molestie
                 </p>
             </div>
@@ -70,7 +70,7 @@
             </div>
         </div>
         <div id="footer_end">
-            <p>© Copyright 2012. BisLite Inc All rights reserved. Some free icons used here are created by Brankic1979.com <br>
+            <p>© Copyright 2012. BisLite Inc All rights reserved. Some free icons used here are created by Brankic1979.com
                 Client Logos are copyraght and trademark of the rospective owners/companies. </p>
             <p id="footer_logo">
                 <span class="logo_bis">Bis</span><span class="logo_lite">Lite</span>

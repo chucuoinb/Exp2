@@ -4,9 +4,14 @@
             <span class="logo_bis">Bis</span><span class="logo_lite">Lite</span>
         </div>
         <div id="menu">
-            <ul>
-                <li class="menu_main active"><a herf="#">HOME</a></li>
-                <li class="menu_main"><a herf="#">ABOUT US</a></li>
+            <p id="bt_menu_phone">
+                Menu
+            </p>
+
+            <i id="menu_tablet" class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            <ul id="menu_phone">
+                <li class="menu_main active" id="top_menu"><a herf="#">HOME</a></li>
+                <li class="menu_main"><a href="">ABOUT US</a></li>
                 <li class="sub_menu menu_main">
                     <a herf="#">SERVICES</a>
                     <div>

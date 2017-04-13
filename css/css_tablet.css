@@ -1,0 +1,354 @@
+@media all and (max-width: 1024px) and (min-width: 481px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        box-sizing: border-box;
+
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: calc(100% - 30px);
+    }
+    #testimonial_text{
+        max-width: 100% !important;
+    }
+    #wrapper {
+        max-width: 100%;
+        overflow-x: hidden !important;
+    }
+
+    #header_logo {
+        width: 100%;
+    }
+
+    #menu li, ul, a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    #menu {
+        position: absolute;
+        top: 0px;
+        width: 95%;
+        right: 10px;
+        left: 10px;
+        margin: auto;
+    }
+
+    #menu > i {
+        display: block;
+        float: right;
+        padding-top: 40px;
+        padding-right: 0px;
+    }
+
+    #menu > ul {
+        position: absolute;
+        z-index: 1;
+        right: 10px;
+        width: 30%;
+        top: 65px;
+        display: none;
+        background-color: #dadada;
+        overflow: hidden;
+    }
+
+    #menu > ul > li {
+        overflow: hidden;
+        width: 100%;
+        border-bottom: 1px solid white;
+        text-align: left;
+        padding: 10px;
+    }
+
+    #menu a {
+        color: #2fa3f9;
+        padding-right: 30px;
+    }
+
+    .sub_menu > ul {
+        display: none;
+        padding-left: 20px;
+    }
+
+    .sub_menu > div {
+        display: inline-block;
+        padding-left: 10px;
+        float: right;
+    }
+
+    .sub_menu > a {
+        padding-right: 0px;
+    }
+
+    .sub_menu > ul > li {
+        padding-bottom: 15px;
+        border-bottom: 1px solid white;
+        height: 20px;
+        line-height: 40px;
+    }
+
+    .sub_menu > ul > li > a {
+        font-style: italic;
+    }
+
+    .bottom_submenu {
+        border-bottom: 0px !important;
+    }
+
+    .sub_menu > div {
+        display: inline-block;
+        padding-right: 30px;
+        float: right;
+    }
+
+    #top_menu {
+        border-top: 1px solid white;
+    }
+
+    .sub_menu:hover ul {
+        display: block;
+    }
+
+    #slide > img {
+        width: 100%;
+        height: 400px;
+    }
+    #slide{
+        height: 420px;
+    }
+    #home1 {
+        height: 420px;
+    }
+
+    .home1_content {
+        height: 200px;
+    }
+
+    #home1_content2 {
+        float: right;
+        padding-right: 0%;
+    }
+
+    #home1_content1 {
+        float: left;
+        padding-left: 0% !important;
+    }
+
+    .home1_content {
+        display: block;
+        width: 47%;
+    }
+
+    .home1_content_header {
+        padding-top: 30px !important;
+    }
+
+    .home1_content_header > p {
+        top: 40px;
+    }
+
+    .home1_content > p {
+        padding-top: 15px;
+        max-width: 100% !important;
+    }
+
+    .home1_content_footer > p {
+        padding-top: 15px;
+    }
+
+    #home1_content3 {
+        /*float: left;*/
+        padding-left: 0% !important;
+    }
+
+    #home1_content4 {
+        float: right;
+        padding-right: 0% !important;
+    }
+    .home1_content >p{
+        max-width: 100%;
+    }
+    #home2_item_title {
+    }
+
+    #home2_item_title > i {
+        color: #2aacc8;
+    }
+
+    #home2_item_title > p {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    #list_item {
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        /*border: 0px;*/
+
+    }
+    #list_item{
+        height: 280px;
+    }
+    .item {
+        width: 48%;
+        height: auto;
+    }
+    .item > div {
+        height: 90%;
+        padding-top: 4%;
+    }
+    .img_item {
+        width: 100%;
+        height: 100%;
+    }
+    #testimonial {
+        /*border-top: 1px solid #dfe1e5;*/
+        width: 100%;
+        height: 200px;
+        padding-top: 20px;
+        padding-right: 10%;
+        margin: auto;
+    }
+
+    #testimonial_title > p {
+        top: 15px;
+    }
+
+    #our_client_title > p {
+        top: 15px;
+    }
+
+    #home2_middle {
+        height: 650px;
+        position: relative;
+    }
+
+    #our_client {
+        position: absolute;
+        top: 300px;
+        height: 300px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        border-top: 1px solid #dfe1e5;
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    #our_client_title > img {
+        left: 42%;
+    }
+
+    #our_client_title > p {
+        left: 48%;
+    }
+
+    #logo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #home2_footer {
+        height: 180px;
+
+    }
+
+    #home2_footer > p {
+        max-width: 100% !important;
+    }
+
+    #home2_footer > div {
+        float: none;
+        top: 80px;
+        right: 0px;
+        left: 0px;
+        margin: auto;
+    }
+
+    #home2_footer > div > a > p {
+        top: 20px;
+    }
+
+    #footer {
+        height: 440px ;
+    }
+
+    #footer_content {
+        height: 320px;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+    .footer_text{
+        max-width: 40%;
+    }
+    #footer_content_1 {
+        left: 0px;
+    }
+
+    #footer_content_2 {
+        left: 45%;
+
+        width: 10%;
+    }
+
+    #footer_content_4 {
+        left: 80%;
+        top: 0px;
+    }
+
+    #footer_content_5 {
+        left: 0%;
+        top: 170px;
+        height: auto;
+        width: 100%;
+    }
+    #footer_content_5 div,img{
+        display: inline-block;
+    }
+    #footer_content_5 >p{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20%;
+    }
+    #footer_content_3 {
+        left: 60%;
+        top: 0px;
+        width: 10%;
+    }
+
+    .img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .footer_title {
+    }
+
+    .footer_content_middle > ul {
+        left: 0px !important;
+    }
+    .footer_content_middle > ul > li {
+        padding-top: 5px;
+
+    }
+    #footer_logo {
+        top: -20px;
+    }
+
+    #footer_end {
+        height: auto;
+    }
+}
